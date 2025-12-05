@@ -1,7 +1,7 @@
 export const translations = {
   es: {
     // Header
-    'header.title': 'Tienda Virtual',
+    'header.title': 'RRHH - DEV',
     'header.nav.web': 'Desarrollo Web',
     'header.nav.rrhh': 'RRHH',
     'header.nav.about': 'Quiénes Somos',
@@ -74,9 +74,9 @@ export const translations = {
     // About
     'about.title': 'Quiénes Somos',
     'about.description1': 'Somos un equipo especializado que combina la creatividad técnica con la experiencia en gestión de talento humano. Nuestro equipo está formado por un',
-    'about.developer': 'desarrollador web',
+    'about.developer': 'Desarrollador Web',
     'about.and': 'y una',
-    'about.hr': 'licenciada en Recursos Humanos',
+    'about.hr': 'Licenciada en Psiocología Organizacional',
     'about.description2': 'con amplia experiencia en gestión de talento y desarrollo organizacional.',
     'about.description3': 'Trabajamos juntos para ofrecerte servicios integrales que van desde la creación de tu presencia digital hasta la optimización de los recursos humanos de tu empresa. Nuestro objetivo es ayudarte a crecer tanto en el mundo digital como en la gestión de tu equipo.',
     'about.value1.title': 'Compromiso',
@@ -126,7 +126,7 @@ export const translations = {
   
   en: {
     // Header
-    'header.title': 'Virtual Store',
+    'header.title': 'RRHH - DEV',
     'header.nav.web': 'Web Development',
     'header.nav.rrhh': 'HR',
     'header.nav.about': 'About Us',
@@ -199,9 +199,9 @@ export const translations = {
     // About
     'about.title': 'About Us',
     'about.description1': 'We are a specialized team that combines technical creativity with experience in human talent management. Our team consists of a',
-    'about.developer': 'web developer',
+    'about.developer': 'Web Developer',
     'about.and': 'and a',
-    'about.hr': 'Human Resources graduate',
+    'about.hr': 'Graduate Organisational Psychology',
     'about.description2': 'with extensive experience in talent management and organizational development.',
     'about.description3': 'We work together to offer you comprehensive services ranging from creating your digital presence to optimizing your company\'s human resources. Our goal is to help you grow both in the digital world and in managing your team.',
     'about.value1.title': 'Commitment',
@@ -251,7 +251,7 @@ export const translations = {
   
   pt: {
     // Header
-    'header.title': 'Loja Virtual',
+    'header.title': 'RRHH - DEV',
     'header.nav.web': 'Desenvolvimento Web',
     'header.nav.rrhh': 'RH',
     'header.nav.about': 'Quem Somos',
@@ -324,9 +324,9 @@ export const translations = {
     // About
     'about.title': 'Quem Somos',
     'about.description1': 'Somos uma equipe especializada que combina criatividade técnica com experiência em gestão de talentos humanos. Nossa equipe é formada por um',
-    'about.developer': 'desenvolvedor web',
+    'about.developer': 'Desenvolvedor Web',
     'about.and': 'e uma',
-    'about.hr': 'licenciada em Recursos Humanos',
+    'about.hr': 'Licenciada em Psicologia Organizacional',
     'about.description2': 'com ampla experiência em gestão de talentos e desenvolvimento organizacional.',
     'about.description3': 'Trabalhamos juntos para oferecer serviços integrais que vão desde a criação da sua presença digital até a otimização dos recursos humanos da sua empresa. Nosso objetivo é ajudá-lo a crescer tanto no mundo digital quanto na gestão da sua equipe.',
     'about.value1.title': 'Compromisso',
