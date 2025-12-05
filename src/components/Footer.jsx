@@ -7,10 +7,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
 
   const socialLinks = [
-    { icon: FiFacebook, name: 'Facebook', url: 'https://facebook.com' },
     { icon: FiInstagram, name: 'Instagram', url: 'https://instagram.com' },
     { icon: FiLinkedin, name: 'LinkedIn', url: 'https://linkedin.com' },
-    { icon: FiTwitter, name: 'Twitter', url: 'https://twitter.com' },
     { icon: FiMail, name: 'Email', url: 'mailto:contacto@tiendavirtual.com' }
   ]
 

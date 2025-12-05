@@ -4,3 +4,4 @@ export const WHATSAPP_NUMBER = '123456789' // Reemplaza con tu número de WhatsA
 
 export const CONTACT_EMAIL = 'contacto@tiendavirtual.com' // Reemplaza con tu email de contacto
 
+

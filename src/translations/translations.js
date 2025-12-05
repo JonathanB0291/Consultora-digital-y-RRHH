@@ -29,8 +29,8 @@ export const translations = {
     'service.recruitment.desc': 'Servicio completo de búsqueda, selección y contratación de talento para tu empresa.',
     'service.evaluation.name': 'Evaluación de Desempeño',
     'service.evaluation.desc': 'Sistema integral de evaluación del desempeño de tus empleados con métricas y planes de mejora.',
-    'service.training.name': 'Capacitación y Desarrollo',
-    'service.training.desc': 'Programas de formación personalizados para desarrollar las habilidades de tu equipo.',
+    'service.psychological.name': 'Asesorías psicolaborales personalizadas',
+    'service.psychological.desc': 'Te ayudamos a encontrar claridad, confianza y dirección en tu camino laboral. Creamos un plan personalizado de orientación y crecimiento profesional para que puedas mejorar tu situación laboral, potenciar tu perfil y abrir nuevas oportunidades acorde a lo que realmente buscás.',
     
     // Product Card
     'product.addToCart': 'Añadir al carrito',
@@ -114,17 +114,14 @@ export const translations = {
     'feature.evaluation': 'Evaluación de competencias',
     'feature.interviews': 'Entrevistas estructuradas',
     'feature.references': 'Verificación de referencias',
-    'feature.onboarding': 'Proceso de onboarding',
-    'feature.360': 'Evaluación 360°',
     'feature.competencies': 'Análisis de competencias',
     'feature.development': 'Plan de desarrollo individual',
     'feature.reports': 'Informes detallados',
     'feature.followup': 'Seguimiento continuo',
-    'feature.needs': 'Análisis de necesidades',
-    'feature.programs': 'Diseño de programas',
-    'feature.training': 'Formación presencial/online',
-    'feature.material': 'Material didáctico',
-    'feature.certification': 'Certificación y seguimiento',
+    'feature.orientation': 'Orientación profesional',
+    'feature.strengths': 'Identificación de fortalezas y competencias',
+    'feature.psychoprofile': 'Informe psicoprofesional',
+    'feature.growth': 'Plan de crecimiento laboral',
   },
   
   en: {
@@ -157,8 +154,8 @@ export const translations = {
     'service.recruitment.desc': 'Complete service for searching, selecting and hiring talent for your company.',
     'service.evaluation.name': 'Performance Evaluation',
     'service.evaluation.desc': 'Comprehensive system for evaluating your employees\' performance with metrics and improvement plans.',
-    'service.training.name': 'Training and Development',
-    'service.training.desc': 'Customized training programs to develop your team\'s skills.',
+    'service.psychological.name': 'Personalized Psychosocial Counseling',
+    'service.psychological.desc': 'We help you find clarity, confidence and direction in your career path. We create a personalized plan of guidance and professional growth so you can improve your work situation, enhance your profile and open new opportunities according to what you are really looking for.',
     
     // Product Card
     'product.addToCart': 'Add to cart',
@@ -242,17 +239,14 @@ export const translations = {
     'feature.evaluation': 'Competency evaluation',
     'feature.interviews': 'Structured interviews',
     'feature.references': 'Reference verification',
-    'feature.onboarding': 'Onboarding process',
-    'feature.360': '360° evaluation',
     'feature.competencies': 'Competency analysis',
     'feature.development': 'Individual development plan',
     'feature.reports': 'Detailed reports',
     'feature.followup': 'Continuous follow-up',
-    'feature.needs': 'Needs analysis',
-    'feature.programs': 'Program design',
-    'feature.training': 'In-person/online training',
-    'feature.material': 'Educational material',
-    'feature.certification': 'Certification and follow-up',
+    'feature.orientation': 'Professional guidance',
+    'feature.strengths': 'Identification of strengths and competencies',
+    'feature.psychoprofile': 'Psychoprofessional report',
+    'feature.growth': 'Career growth plan',
   },
   
   pt: {
@@ -285,8 +279,8 @@ export const translations = {
     'service.recruitment.desc': 'Serviço completo de busca, seleção e contratação de talentos para sua empresa.',
     'service.evaluation.name': 'Avaliação de Desempenho',
     'service.evaluation.desc': 'Sistema integral de avaliação do desempenho dos seus funcionários com métricas e planos de melhoria.',
-    'service.training.name': 'Treinamento e Desenvolvimento',
-    'service.training.desc': 'Programas de formação personalizados para desenvolver as habilidades da sua equipe.',
+    'service.psychological.name': 'Assessorias psicolaborais personalizadas',
+    'service.psychological.desc': 'Te ajudamos a encontrar clareza, confiança e direção no seu caminho profissional. Criamos um plano personalizado de orientação e crescimento profissional para que você possa melhorar sua situação laboral, potencializar seu perfil e abrir novas oportunidades de acordo com o que você realmente busca.',
     
     // Product Card
     'product.addToCart': 'Adicionar ao carrinho',
@@ -370,17 +364,14 @@ export const translations = {
     'feature.evaluation': 'Avaliação de competências',
     'feature.interviews': 'Entrevistas estruturadas',
     'feature.references': 'Verificação de referências',
-    'feature.onboarding': 'Processo de integração',
-    'feature.360': 'Avaliação 360°',
     'feature.competencies': 'Análise de competências',
     'feature.development': 'Plano de desenvolvimento individual',
     'feature.reports': 'Relatórios detalhados',
     'feature.followup': 'Acompanhamento contínuo',
-    'feature.needs': 'Análise de necessidades',
-    'feature.programs': 'Design de programas',
-    'feature.training': 'Formação presencial/online',
-    'feature.material': 'Material didático',
-    'feature.certification': 'Certificação e acompanhamento',
+    'feature.orientation': 'Orientação profissional',
+    'feature.strengths': 'Identificação de fortalezas e competências',
+    'feature.psychoprofile': 'Relatório psicoprofissional',
+    'feature.growth': 'Plano de crescimento profissional',
   }
 }
 

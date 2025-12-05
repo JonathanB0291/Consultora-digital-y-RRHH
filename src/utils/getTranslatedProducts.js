@@ -24,9 +24,9 @@ export const getTranslatedProducts = (language) => {
   
   const translatedServices = services.map((service, index) => {
     const keys = {
-      0: { name: 'service.recruitment.name', desc: 'service.recruitment.desc', features: ['feature.search', 'feature.evaluation', 'feature.interviews', 'feature.references', 'feature.onboarding'] },
-      1: { name: 'service.evaluation.name', desc: 'service.evaluation.desc', features: ['feature.360', 'feature.competencies', 'feature.development', 'feature.reports', 'feature.followup'] },
-      2: { name: 'service.training.name', desc: 'service.training.desc', features: ['feature.needs', 'feature.programs', 'feature.training', 'feature.material', 'feature.certification'] }
+      0: { name: 'service.recruitment.name', desc: 'service.recruitment.desc', features: ['feature.search', 'feature.evaluation', 'feature.interviews', 'feature.references'] },
+      1: { name: 'service.evaluation.name', desc: 'service.evaluation.desc', features: ['feature.competencies', 'feature.development', 'feature.reports', 'feature.followup'] },
+      2: { name: 'service.psychological.name', desc: 'service.psychological.desc', features: ['feature.orientation', 'feature.strengths', 'feature.psychoprofile', 'feature.growth'] }
     }
     
     const key = keys[index]

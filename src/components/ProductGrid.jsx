@@ -13,3 +13,4 @@ const ProductGrid = ({ items, onAddToCart }) => {
 
 export default ProductGrid
 
+
