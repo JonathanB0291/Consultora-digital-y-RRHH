@@ -30,6 +30,9 @@ const Header = () => {
           <button onClick={() => scrollToSection('about')} className="nav-link">
             {t('header.nav.about')}
           </button>
+          <button onClick={() => scrollToSection('contact')} className="nav-link">
+            {t('header.nav.contact') || 'Contacto'}
+          </button>
         </nav>
         <div className="header-controls">
           <div className="language-selector">

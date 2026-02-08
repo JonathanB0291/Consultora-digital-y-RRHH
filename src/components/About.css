@@ -1,8 +1,37 @@
 .about-section {
-  background-color: var(--bg-primary);
+  background: linear-gradient(135deg, var(--bg-accent-1) 0%, var(--bg-secondary) 50%, var(--bg-tertiary) 100%);
   padding: 4rem 0;
   margin-top: 2rem;
   transition: background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 10% 20%, rgba(255, 244, 184, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 90% 60%, rgba(230, 213, 255, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 50% 90%, rgba(255, 214, 232, 0.3) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+[data-theme='dark'] .about-section {
+  background: var(--bg-secondary);
+}
+
+[data-theme='dark'] .about-section::before {
+  display: none;
+}
+
+.about-section .container {
+  position: relative;
+  z-index: 1;
 }
 
 .about-title {
@@ -44,11 +73,13 @@
 }
 
 .value-card {
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-primary);
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow);
+  border: 1px solid var(--border-color);
 }
 
 .value-card:hover {

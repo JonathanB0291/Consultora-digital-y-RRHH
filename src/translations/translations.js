@@ -1,13 +1,14 @@
 export const translations = {
   es: {
     // Header
-    'header.title': 'RRHH - DEV',
+    'header.title': 'Human Tech',
     'header.nav.web': 'Desarrollo Web',
     'header.nav.rrhh': 'RRHH',
     'header.nav.about': 'Quiénes Somos',
+    'header.nav.contact': 'Contacto',
     
     // Hero
-    'hero.title': 'Soluciones Digitales y de RRHH',
+    'hero.title': 'Desarrollo Web y Recursos Humanos',
     'hero.subtitle': 'Transformamos tu presencia digital y optimizamos el talento de tu empresa',
     'hero.button.web': 'Ver Servicios Web',
     'hero.button.rrhh': 'Ver Servicios RRHH',
@@ -92,6 +93,22 @@ export const translations = {
     'footer.follow': 'Síguenos',
     'footer.rights': 'Todos los derechos reservados.',
     
+    // Contact
+    'contact.title': 'Contáctanos',
+    'contact.subtitle': '¿Tienes alguna pregunta? Estamos aquí para ayudarte.',
+    'contact.name': 'Nombre *',
+    'contact.namePlaceholder': 'Tu nombre',
+    'contact.email': 'Email *',
+    'contact.emailPlaceholder': 'tu@email.com',
+    'contact.subject': 'Asunto *',
+    'contact.subjectPlaceholder': '¿Sobre qué quieres consultar?',
+    'contact.message': 'Mensaje *',
+    'contact.messagePlaceholder': 'Escribe tu mensaje aquí...',
+    'contact.send': 'Enviar Mensaje',
+    'contact.sending': 'Enviando...',
+    'contact.success': '¡Mensaje enviado con éxito! Te responderemos pronto.',
+    'contact.error': 'Hubo un error al enviar el mensaje. Por favor, intenta nuevamente.',
+    
     // WhatsApp
     'whatsapp.tooltip': '¿Necesitas ayuda?',
     'whatsapp.message': 'Hola! Me interesa conocer más sobre sus servicios.',
@@ -130,6 +147,7 @@ export const translations = {
     'header.nav.web': 'Web Development',
     'header.nav.rrhh': 'HR',
     'header.nav.about': 'About Us',
+    'header.nav.contact': 'Contact',
     
     // Hero
     'hero.title': 'Digital and HR Solutions',
@@ -217,6 +235,22 @@ export const translations = {
     'footer.follow': 'Follow Us',
     'footer.rights': 'All rights reserved.',
     
+    // Contact
+    'contact.title': 'Contact Us',
+    'contact.subtitle': 'Do you have any questions? We are here to help you.',
+    'contact.name': 'Name *',
+    'contact.namePlaceholder': 'Your name',
+    'contact.email': 'Email *',
+    'contact.emailPlaceholder': 'your@email.com',
+    'contact.subject': 'Subject *',
+    'contact.subjectPlaceholder': 'What would you like to inquire about?',
+    'contact.message': 'Message *',
+    'contact.messagePlaceholder': 'Write your message here...',
+    'contact.send': 'Send Message',
+    'contact.sending': 'Sending...',
+    'contact.success': 'Message sent successfully! We will respond soon.',
+    'contact.error': 'There was an error sending the message. Please try again.',
+    
     // WhatsApp
     'whatsapp.tooltip': 'Need help?',
     'whatsapp.message': 'Hello! I\'m interested in learning more about your services.',
@@ -255,6 +289,7 @@ export const translations = {
     'header.nav.web': 'Desenvolvimento Web',
     'header.nav.rrhh': 'RH',
     'header.nav.about': 'Quem Somos',
+    'header.nav.contact': 'Contato',
     
     // Hero
     'hero.title': 'Soluções Digitais e de RH',
@@ -341,6 +376,22 @@ export const translations = {
     'footer.services': 'Serviços',
     'footer.follow': 'Siga-nos',
     'footer.rights': 'Todos os direitos reservados.',
+    
+    // Contact
+    'contact.title': 'Entre em Contato',
+    'contact.subtitle': 'Tem alguma pergunta? Estamos aqui para ajudá-lo.',
+    'contact.name': 'Nome *',
+    'contact.namePlaceholder': 'Seu nome',
+    'contact.email': 'Email *',
+    'contact.emailPlaceholder': 'seu@email.com',
+    'contact.subject': 'Assunto *',
+    'contact.subjectPlaceholder': 'Sobre o que você gostaria de consultar?',
+    'contact.message': 'Mensagem *',
+    'contact.messagePlaceholder': 'Escreva sua mensagem aqui...',
+    'contact.send': 'Enviar Mensagem',
+    'contact.sending': 'Enviando...',
+    'contact.success': 'Mensagem enviada com sucesso! Responderemos em breve.',
+    'contact.error': 'Houve um erro ao enviar a mensagem. Por favor, tente novamente.',
     
     // WhatsApp
     'whatsapp.tooltip': 'Precisa de ajuda?',

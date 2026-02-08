@@ -9,30 +9,42 @@ html {
 }
 
 :root {
-  /* Light theme colors - Pastel intermedio */
+  /* Colores pastel suaves inspirados en la primera sección de rrhh-it.netlify.app */
   --bg-primary: #ffffff;
-  --bg-secondary: #e8c5f0;
-  --bg-tertiary: #f0f3f6;
-  --text-primary: #3d5a6a;
-  --text-secondary: #6a7f90;
-  --text-tertiary: #8a9ba8;
-  --primary-color: #5a8ab3;
-  --primary-hover: #4a7aa3;
-  --border-color: #e8ecef;
-  --shadow: rgba(0, 0, 0, 0.07);
-  --shadow-hover: rgba(0, 0, 0, 0.09);
+  --bg-secondary: #E6D5FF;
+  --bg-tertiary: #FFD6E8;
+  --bg-accent-1: #FFF4B8;
+  --bg-accent-2: #E6D5FF;
+  --bg-accent-3: #FFD6E8;
+  --bg-accent-4: #FFF4B8;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --text-tertiary: #718096;
+  --primary-color: #7c3aed;
+  --primary-hover: #6d28d9;
+  --secondary-color: #ec4899;
+  --accent-color: #f59e0b;
+  --border-color: #e9d5ff;
+  --shadow: rgba(0, 0, 0, 0.06);
+  --shadow-hover: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  /* Dark theme colors */
+  /* Dark theme colors - Versión anterior */
   --bg-primary: #1a1a1a;
   --bg-secondary: #2d2d2d;
   --bg-tertiary: #3a3a3a;
+  --bg-accent-1: #2d2d2d;
+  --bg-accent-2: #2d2d2d;
+  --bg-accent-3: #2d2d2d;
+  --bg-accent-4: #2d2d2d;
   --text-primary: #5ec3b1;
   --text-secondary: #b8b8b8;
   --text-tertiary: #888888;
   --primary-color: #d1dee6;
   --primary-hover: #a9c8dc;
+  --secondary-color: #d1dee6;
+  --accent-color: #d1dee6;
   --border-color: #404040;
   --shadow: rgba(0, 0, 0, 0.3);
   --shadow-hover: rgba(0, 0, 0, 0.4);
@@ -44,7 +56,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--bg-secondary);
+  background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
   transition: background-color 0.3s ease, color 0.3s ease;

@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import ProductGrid from './components/ProductGrid'
 import About from './components/About'
+import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
 import { useLanguage } from './contexts/LanguageContext'
@@ -33,6 +34,8 @@ function App() {
       </main>
 
       <About />
+
+      <ContactForm />
 
       <Footer />
 

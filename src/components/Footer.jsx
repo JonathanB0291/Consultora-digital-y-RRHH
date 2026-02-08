@@ -29,6 +29,7 @@ const Footer = () => {
               <li><a href="#web">{t('header.nav.web')}</a></li>
               <li><a href="#rrhh">{t('header.nav.rrhh')}</a></li>
               <li><a href="#about">{t('header.nav.about')}</a></li>
+              <li><a href="#contact">{t('header.nav.contact') || 'Contacto'}</a></li>
             </ul>
           </div>
 
