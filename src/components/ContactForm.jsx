@@ -56,22 +56,23 @@ const ContactForm = () => {
       // Obtener las credenciales de EmailJS (con valores por defecto)
       const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_6dgnnzk'
       const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_h9afqbr'
+      const replyTemplateId = import.meta.env.VITE_EMAILJS_REPLY_TEMPLATE_ID || 'template_rvze8ck'
       const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'ykQCn5MEeDymKo_H8'
 
       // Mostrar las credenciales que se están usando (solo en desarrollo)
       if (import.meta.env.DEV) {
-        console.log('📧 Enviando email con:')
+        console.log('📧 Enviando emails con:')
         console.log('Service ID:', serviceId)
-        console.log('Template ID:', templateId)
+        console.log('Template ID (admin):', templateId)
+        console.log('Reply Template ID (cliente):', replyTemplateId)
         console.log('Public Key:', publicKey ? `${publicKey.substring(0, 10)}...` : 'No configurado')
       }
 
       // Inicializar EmailJS con la clave pública
       emailjs.init(publicKey)
 
-      // Parámetros que se enviarán a la plantilla
-      // IMPORTANTE: Los nombres deben coincidir exactamente con los nombres en tu plantilla de EmailJS
-      const templateParams = {
+      // 1️⃣ Email al ADMINISTRADOR (tu correo)
+      const adminParams = {
         from_name: formData.name,
         from_email: formData.email,
         subject: formData.subject,
@@ -79,14 +80,31 @@ const ContactForm = () => {
         to_email: CONTACT_EMAIL
       }
 
-      // Enviar el email usando la API más reciente de EmailJS
-      const response = await emailjs.send(serviceId, templateId, templateParams)
+      // 2️⃣ Email al CLIENTE (respuesta automática)
+      const clientParams = {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        to_email: formData.email // Enviar al email del cliente
+      }
 
-      if (response.status === 200) {
+      console.log('📤 Enviando email al administrador...')
+      const adminResponse = await emailjs.send(serviceId, templateId, adminParams)
+
+      if (adminResponse.status !== 200) {
+        throw new Error('Error al enviar email al administrador')
+      }
+
+      console.log('📤 Enviando respuesta automática al cliente...')
+      const clientResponse = await emailjs.send(serviceId, replyTemplateId, clientParams)
+
+      if (clientResponse.status === 200) {
         setSubmitStatus('success')
         setFormData({ name: '', email: '', subject: '', message: '' })
+        console.log('✅ Ambos emails enviados correctamente')
       } else {
-        throw new Error('Error al enviar el email')
+        throw new Error('Error al enviar respuesta al cliente')
       }
     } catch (error) {
       console.error('❌ Error completo:', error)
