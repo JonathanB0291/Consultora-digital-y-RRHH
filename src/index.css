@@ -9,18 +9,18 @@ html {
 }
 
 :root {
-  /* Light theme colors */
+  /* Light theme colors - Pastel intermedio */
   --bg-primary: #ffffff;
-  --bg-secondary: #ce86e3;
-  --bg-tertiary: #e9ecef;
-  --text-primary: #2c4850;
-  --text-secondary: #5a6c7d;
-  --text-tertiary: #121312;
-  --primary-color: #436790;
-  --primary-hover: #434d58;
+  --bg-secondary: #e8c5f0;
+  --bg-tertiary: #f0f3f6;
+  --text-primary: #3d5a6a;
+  --text-secondary: #6a7f90;
+  --text-tertiary: #8a9ba8;
+  --primary-color: #5a8ab3;
+  --primary-hover: #4a7aa3;
   --border-color: #e8ecef;
-  --shadow: rgba(0, 0, 0, 0.08);
-  --shadow-hover: rgba(0, 0, 0, 0.1);
+  --shadow: rgba(0, 0, 0, 0.07);
+  --shadow-hover: rgba(0, 0, 0, 0.09);
 }
 
 [data-theme='dark'] {

@@ -1,9 +1,9 @@
-import { FiShoppingCart, FiSun, FiMoon } from 'react-icons/fi'
+import { FiSun, FiMoon } from 'react-icons/fi'
 import { useTheme } from '../contexts/ThemeContext'
 import { useLanguage } from '../contexts/LanguageContext'
 import './Header.css'
 
-const Header = ({ cartItemsCount, onCartClick }) => {
+const Header = () => {
   const { theme, toggleTheme } = useTheme()
   const { t, language, changeLanguage } = useLanguage()
 
@@ -45,10 +45,6 @@ const Header = ({ cartItemsCount, onCartClick }) => {
           </div>
           <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
             {theme === 'light' ? <FiMoon /> : <FiSun />}
-          </button>
-          <button className="cart-button" onClick={onCartClick}>
-            <FiShoppingCart className="cart-icon" />
-            <span className="cart-count">{cartItemsCount}</span>
           </button>
         </div>
       </div>

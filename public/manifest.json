@@ -1,0 +1,19 @@
+{
+  "name": "Consultoría y Desarrollo Web",
+  "short_name": "Consultoría Web",
+  "description": "Servicios profesionales de desarrollo web, consultoría tecnológica y recursos humanos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0d5f5",
+  "theme_color": "#6b9bc4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

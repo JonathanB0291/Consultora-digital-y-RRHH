@@ -12,7 +12,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="hero">
+    <section className="hero" aria-label="Hero section">
       <div className="hero-content">
         <h1 className="hero-title">{t('hero.title')}</h1>
         <p className="hero-subtitle">
@@ -22,12 +22,14 @@ const Hero = () => {
           <button 
             className="hero-button primary" 
             onClick={() => scrollToSection('web')}
+            aria-label="Ver servicios de desarrollo web"
           >
             {t('hero.button.web')}
           </button>
           <button 
             className="hero-button secondary" 
             onClick={() => scrollToSection('rrhh')}
+            aria-label="Ver servicios de recursos humanos"
           >
             {t('hero.button.rrhh')}
           </button>
