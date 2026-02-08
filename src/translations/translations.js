@@ -33,38 +33,6 @@ export const translations = {
     'service.psychological.name': 'Asesorías psicolaborales personalizadas',
     'service.psychological.desc': 'Te ayudamos a encontrar claridad, confianza y dirección en tu camino laboral. Creamos un plan personalizado de orientación y crecimiento profesional para que puedas mejorar tu situación laboral, potenciar tu perfil y abrir nuevas oportunidades acorde a lo que realmente buscás.',
     
-    // Product Card
-    'product.addToCart': 'Añadir al carrito',
-    
-    // Cart
-    'cart.title': 'Carrito de Compras',
-    'cart.empty': 'Tu carrito está vacío',
-    'cart.total': 'Total:',
-    'cart.checkout': 'Proceder al Pago',
-    'cart.itemTotal': 'Total:',
-    
-    // Checkout
-    'checkout.title': 'Finalizar Pedido',
-    'checkout.summary': 'Resumen del Pedido',
-    'checkout.contact': 'Datos de Contacto',
-    'checkout.name': 'Nombre Completo *',
-    'checkout.email': 'Email *',
-    'checkout.phone': 'Teléfono *',
-    'checkout.message': 'Mensaje (Opcional)',
-    'checkout.messagePlaceholder': 'Cuéntanos más sobre tu proyecto o necesidades...',
-    'checkout.whatsapp': 'Enviar por WhatsApp',
-    'checkout.submit': 'Enviar Solicitud',
-    'checkout.success': '¡Pedido Enviado!',
-    'checkout.successMessage': 'Nos pondremos en contacto contigo pronto.',
-    'checkout.whatsappMessage': '¡Hola! Me interesa realizar la siguiente solicitud:',
-    'checkout.orderSummary': 'Resumen del Pedido:',
-    'checkout.myData': 'Mis Datos:',
-    'checkout.nameLabel': 'Nombre:',
-    'checkout.emailLabel': 'Email:',
-    'checkout.phoneLabel': 'Teléfono:',
-    'checkout.messageLabel': 'Mensaje:',
-    'checkout.contactPrompt': '¿Podrían contactarme para continuar con el proceso?',
-    
     // Validation
     'validation.nameRequired': 'El nombre es requerido',
     'validation.emailRequired': 'El email es requerido',
@@ -174,38 +142,6 @@ export const translations = {
     'service.evaluation.desc': 'Comprehensive system for evaluating your employees\' performance with metrics and improvement plans.',
     'service.psychological.name': 'Personalized Psychosocial Counseling',
     'service.psychological.desc': 'We help you find clarity, confidence and direction in your career path. We create a personalized plan of guidance and professional growth so you can improve your work situation, enhance your profile and open new opportunities according to what you are really looking for.',
-    
-    // Product Card
-    'product.addToCart': 'Add to cart',
-    
-    // Cart
-    'cart.title': 'Shopping Cart',
-    'cart.empty': 'Your cart is empty',
-    'cart.total': 'Total:',
-    'cart.checkout': 'Proceed to Checkout',
-    'cart.itemTotal': 'Total:',
-    
-    // Checkout
-    'checkout.title': 'Complete Order',
-    'checkout.summary': 'Order Summary',
-    'checkout.contact': 'Contact Information',
-    'checkout.name': 'Full Name *',
-    'checkout.email': 'Email *',
-    'checkout.phone': 'Phone *',
-    'checkout.message': 'Message (Optional)',
-    'checkout.messagePlaceholder': 'Tell us more about your project or needs...',
-    'checkout.whatsapp': 'Send via WhatsApp',
-    'checkout.submit': 'Send Request',
-    'checkout.success': 'Order Sent!',
-    'checkout.successMessage': 'We will contact you soon.',
-    'checkout.whatsappMessage': 'Hello! I am interested in making the following request:',
-    'checkout.orderSummary': 'Order Summary:',
-    'checkout.myData': 'My Information:',
-    'checkout.nameLabel': 'Name:',
-    'checkout.emailLabel': 'Email:',
-    'checkout.phoneLabel': 'Phone:',
-    'checkout.messageLabel': 'Message:',
-    'checkout.contactPrompt': 'Could you contact me to continue with the process?',
     
     // Validation
     'validation.nameRequired': 'Name is required',

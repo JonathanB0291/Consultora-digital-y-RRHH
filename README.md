@@ -1,22 +1,20 @@
 # Tienda Virtual - Desarrollo Web y RRHH
 
-Tienda virtual minimalista para la venta de servicios de desarrollo web y recursos humanos.
+Tienda virtual minimalista para mostrar servicios de desarrollo web y recursos humanos.
 
 ## Características
 
 - **Productos de Desarrollo Web:**
-  - Páginas Web Corporativas (899€)
-  - Landing Pages (499€)
-  - Portfolios Profesionales (399€)
+  - Páginas Web Corporativas
+  - Landing Pages
+  - Portfolios Profesionales
 
 - **Servicios de Recursos Humanos:**
-  - Reclutamiento y Selección (1,299€)
-  - Evaluación de Desempeño (899€)
-  - Capacitación y Desarrollo (1,499€)
+  - Reclutamiento y Selección
+  - Evaluación de Desempeño
+  - Capacitación y Desarrollo
 
 - **Características principales:**
-  - Carrito de compras funcional
-  - Precios en euros (€)
   - Diseño minimalista con colores claros
   - Interfaz responsive
   - Sección "Quiénes Somos"
@@ -24,6 +22,7 @@ Tienda virtual minimalista para la venta de servicios de desarrollo web y recurs
   - Botón flotante de WhatsApp
   - Navegación suave entre secciones
   - Hero section atractivo
+  - Formulario de contacto funcional
 
 ## Instalación
 
@@ -57,34 +56,27 @@ export const WHATSAPP_NUMBER = '123456789' // Reemplaza con tu número (formato:
 
 Ejemplo: Si tu número es +34 612 345 678, deberías poner `34612345678`
 
-Este número se usará tanto en el botón flotante de WhatsApp como en el proceso de checkout.
+Este número se usará en el botón flotante de WhatsApp.
 
 ### Email de Contacto
 
 También puedes configurar tu email de contacto en el mismo archivo:
 
 ```js
-export const CONTACT_EMAIL = 'contacto@tiendavirtual.com'
+export const CONTACT_EMAIL = 'consultora.humantech@gmail.com'
 ```
 
-## Sistema de Checkout
+## Configuración de Email
 
-El sistema de checkout incluye:
+El formulario de contacto está integrado con EmailJS. Configura las credenciales en el archivo `.env`:
 
-- **Formulario de datos del cliente**: Nombre, email, teléfono y mensaje opcional
-- **Validación de formulario**: Verifica que todos los campos requeridos estén completos
-- **Resumen del pedido**: Muestra todos los productos/servicios seleccionados
-- **Envío por WhatsApp**: Genera un mensaje completo con todos los datos y abre WhatsApp
-- **Envío por Email**: Botón para enviar solicitud (actualmente muestra confirmación)
+```
+VITE_EMAILJS_SERVICE_ID=service_6dgnnzk
+VITE_EMAILJS_TEMPLATE_ID=template_h9afqbr
+VITE_EMAILJS_PUBLIC_KEY=ykQCn5MEeDymKo_H8
+```
 
-### Integración con Email (Opcional)
-
-Si deseas integrar el envío de emails real, puedes usar servicios como:
-- **EmailJS**: Fácil de integrar, no requiere backend
-- **Formspree**: Servicio de formularios por email
-- **Backend propio**: Con Node.js y nodemailer
-
-El botón "Enviar Solicitud" actualmente muestra un mensaje de confirmación. Puedes modificarlo en `src/components/Checkout.jsx` para integrar tu servicio de email preferido.
+Los mensajes se enviarán automáticamente a tu email de contacto.
 
 ## Tecnologías Utilizadas
 
@@ -92,4 +84,5 @@ El botón "Enviar Solicitud" actualmente muestra un mensaje de confirmación. Pu
 - Vite
 - React Icons
 - CSS3
+- EmailJS
 
