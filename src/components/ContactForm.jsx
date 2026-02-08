@@ -72,9 +72,10 @@ const ContactForm = () => {
       // Parámetros que se enviarán a la plantilla
       // IMPORTANTE: Los nombres deben coincidir exactamente con los nombres en tu plantilla de EmailJS
       const templateParams = {
-        from_name: formData.name,
-        from_email: formData.email,
+        name: formData.name,
+        email: formData.email,
         subject: formData.subject,
+        title: formData.subject,
         message: formData.message,
         to_email: CONTACT_EMAIL
       }
