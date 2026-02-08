@@ -1,6 +1,7 @@
 import { FiSun, FiMoon } from 'react-icons/fi'
 import { useTheme } from '../contexts/ThemeContext'
 import { useLanguage } from '../contexts/LanguageContext'
+import logo from '../assets/Humantech.jpeg'  // ← CORRECTO
 import './Header.css'
 
 const Header = () => {
@@ -17,9 +18,12 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
+        {/* LOGO */}
         <div className="logo">
-          <h1>{t('header.title')}</h1>
+          <img src={logo} alt="Logo" className="logo-img" />
         </div>
+
+        {/* MENÚ */}
         <nav className="nav-menu">
           <button onClick={() => scrollToSection('web')} className="nav-link">
             {t('header.nav.web')}
@@ -34,6 +38,8 @@ const Header = () => {
             {t('header.nav.contact') || 'Contacto'}
           </button>
         </nav>
+
+        {/* CONTROLES */}
         <div className="header-controls">
           <div className="language-selector">
             <select 
@@ -56,4 +62,3 @@ const Header = () => {
 }
 
 export default Header
-

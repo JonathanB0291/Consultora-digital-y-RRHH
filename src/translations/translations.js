@@ -1,7 +1,6 @@
 export const translations = {
   es: {
     // Header
-    'header.title': 'Human Tech',
     'header.nav.web': 'Desarrollo Web',
     'header.nav.rrhh': 'RRHH',
     'header.nav.about': 'Quiénes Somos',
@@ -88,7 +87,7 @@ export const translations = {
     'about.value3.desc': 'Enfocados en generar valor real para tu negocio',
     
     // Footer
-    'footer.description': 'Soluciones digitales y de recursos humanos para hacer crecer tu negocio.',
+    'footer.description': 'Donde la tecnología y las personas se potencian',
     'footer.services': 'Servicios',
     'footer.follow': 'Síguenos',
     'footer.rights': 'Todos los derechos reservados.',
@@ -143,7 +142,6 @@ export const translations = {
   
   en: {
     // Header
-    'header.title': 'RRHH - DEV',
     'header.nav.web': 'Web Development',
     'header.nav.rrhh': 'HR',
     'header.nav.about': 'About Us',
@@ -230,7 +228,7 @@ export const translations = {
     'about.value3.desc': 'Focused on generating real value for your business',
     
     // Footer
-    'footer.description': 'Digital and human resources solutions to grow your business.',
+    'footer.description': 'Where technology and people empower each other.',
     'footer.services': 'Services',
     'footer.follow': 'Follow Us',
     'footer.rights': 'All rights reserved.',
@@ -285,7 +283,6 @@ export const translations = {
   
   pt: {
     // Header
-    'header.title': 'RRHH - DEV',
     'header.nav.web': 'Desenvolvimento Web',
     'header.nav.rrhh': 'RH',
     'header.nav.about': 'Quem Somos',
@@ -372,7 +369,7 @@ export const translations = {
     'about.value3.desc': 'Focados em gerar valor real para seu negócio',
     
     // Footer
-    'footer.description': 'Soluções digitais e de recursos humanos para fazer crescer seu negócio.',
+    'footer.description': 'Onde a tecnologia e as pessoas se potencializam.',
     'footer.services': 'Serviços',
     'footer.follow': 'Siga-nos',
     'footer.rights': 'Todos os direitos reservados.',

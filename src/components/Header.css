@@ -23,6 +23,18 @@
   gap: 2rem;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* espacio entre logo y texto */
+}
+
+.logo-img {
+  width: 50px;    /* ancho deseado */
+  height: 50px;   /* altura deseada */
+  object-fit: contain; /* mantiene la proporción */
+}
+
 .nav-menu {
   display: flex;
   gap: 1.5rem;
