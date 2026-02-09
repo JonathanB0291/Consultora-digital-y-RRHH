@@ -1,13 +1,14 @@
 export const translations = {
   es: {
     // Header
+    'page.title': 'HumanTech | Desarrollo Web y Recursos Humanos',
     'header.nav.web': 'Desarrollo Web',
     'header.nav.rrhh': 'RRHH',
     'header.nav.about': 'Quiénes Somos',
     'header.nav.contact': 'Contacto',
     
     // Hero
-    'hero.title': 'Desarrollo Web y Recursos Humanos',
+    'hero.title': 'Desarrollador web & RRHH',
     'hero.subtitle': 'Transformamos tu presencia digital y optimizamos el talento de tu empresa',
     'hero.button.web': 'Ver Servicios Web',
     'hero.button.rrhh': 'Ver Servicios RRHH',
@@ -26,11 +27,11 @@ export const translations = {
     
     // Services
     'service.recruitment.name': 'Reclutamiento y Selección',
-    'service.recruitment.desc': 'Proceso integral de reclutamiento, selección y contratación de talento para tu empresa',
-    'service.evaluation.name': 'Redacción del aviso laboral, publicación y difusión de la búsqueda',
-    'service.evaluation.desc': 'Preselección de candidatos acorde al perfil solicitado.',
-    'service.psychological.name': 'Evaluación de competencias alineadas al perfil buscado y análisis de motivaciones y expectativas profesionales.',
-    'service.psychological.desc': 'Presentación de candidatos finalistas. - entrega de Shortlist de 2 a 3 candidatos e Informe resumido por candidato con observaciones y recomendación.',
+    'service.recruitment.desc': 'Proceso integral de reclutamiento, selección y contratación de talento para tu empresa.',
+    'service.evaluation.name': 'Relevamiento y definición del perfil',
+    'service.evaluation.desc': 'Redacción del aviso laboral, publicación y difusión de la búsqueda',
+    'service.psychological.name': 'Preselección de candidatos acorde al perfil solicitado',
+    'service.psychological.desc': 'Evaluación de competencias alineadas al perfil buscado y análisis de motivaciones y expectativas profesionales.\nPresentación de candidatos finalistas - entrega de Shortlist de 2 a 3 candidatos e Informe resumido por candidato con observaciones y recomendación.',
     
     // Product Card
     'product.addToCart': 'Añadir al carrito',
@@ -142,13 +143,14 @@ export const translations = {
   
   en: {
     // Header
+    'page.title': 'HumanTech | Web Development and Human Resources',
     'header.nav.web': 'Web Development',
     'header.nav.rrhh': 'HR',
     'header.nav.about': 'About Us',
     'header.nav.contact': 'Contact',
     
     // Hero
-    'hero.title': 'Digital and HR Solutions',
+    'hero.title': 'Web Developer & HR',
     'hero.subtitle': 'We transform your digital presence and optimize your company\'s talent',
     'hero.button.web': 'View Web Services',
     'hero.button.rrhh': 'View HR Services',
@@ -167,11 +169,11 @@ export const translations = {
     
     // Services
     'service.recruitment.name': 'Recruitment and Selection',
-    'service.recruitment.desc': 'Complete service for searching, selecting and hiring talent for your company.',
-    'service.evaluation.name': 'Performance Evaluation',
-    'service.evaluation.desc': 'Comprehensive system for evaluating your employees\' performance with metrics and improvement plans.',
-    'service.psychological.name': 'Personalized Psychosocial Counseling',
-    'service.psychological.desc': 'We help you find clarity, confidence and direction in your career path. We create a personalized plan of guidance and professional growth so you can improve your work situation, enhance your profile and open new opportunities according to what you are really looking for.',
+    'service.recruitment.desc': 'Comprehensive recruitment, selection and hiring process for your company.',
+    'service.evaluation.name': 'Survey and profile definition',
+    'service.evaluation.desc': 'Writing job postings, publishing and disseminating the search',
+    'service.psychological.name': 'Pre-selection of candidates according to the required profile',
+    'service.psychological.desc': 'Evaluation of competencies aligned with the desired profile and analysis of professional motivations and expectations.\nPresentation of final candidates - delivery of shortlist of 2-3 candidates and summary report per candidate with observations and recommendations.',
     
     // Product Card
     'product.addToCart': 'Add to cart',
@@ -283,13 +285,14 @@ export const translations = {
   
   pt: {
     // Header
+    'page.title': 'HumanTech | Desenvolvimento Web e Recursos Humanos',
     'header.nav.web': 'Desenvolvimento Web',
     'header.nav.rrhh': 'RH',
     'header.nav.about': 'Quem Somos',
     'header.nav.contact': 'Contato',
     
     // Hero
-    'hero.title': 'Soluções Digitais e de RH',
+    'hero.title': 'Desenvolvedor Web & RH',
     'hero.subtitle': 'Transformamos sua presença digital e otimizamos o talento da sua empresa',
     'hero.button.web': 'Ver Serviços Web',
     'hero.button.rrhh': 'Ver Serviços de RH',

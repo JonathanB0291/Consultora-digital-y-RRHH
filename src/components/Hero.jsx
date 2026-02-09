@@ -14,6 +14,9 @@ const Hero = () => {
   return (
     <section className="hero" aria-label="Hero section">
       <div className="hero-content">
+        <h1 className="hero-title">
+          {t('hero.title')}
+        </h1>
         <p className="hero-subtitle">
           {t('hero.subtitle')}
         </p>
