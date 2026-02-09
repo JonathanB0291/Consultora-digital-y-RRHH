@@ -1,7 +1,7 @@
 import { FiSun, FiMoon } from 'react-icons/fi'
 import { useTheme } from '../contexts/ThemeContext'
 import { useLanguage } from '../contexts/LanguageContext'
-import logo from '../assets/Humantech.jpeg'  // ← CORRECTO
+import logo from '..src/assets/HumanTech.jpeg'  // ← CORRECTO
 import './Header.css'
 
 const Header = () => {
