@@ -7,7 +7,7 @@ export const getTranslatedProducts = (language) => {
   const translatedProducts = products.map((product, index) => {
     const keys = {
       0: { name: 'product.web.name', desc: 'product.web.desc', features: ['feature.responsive', 'feature.seo', 'feature.admin', 'feature.contact', 'feature.social'] },
-      1: { name: 'product.landing.name', desc: 'product.landing.desc', features: ['feature.conversion', 'feature.speed', 'feature.email', 'feature.forms', 'feature.analytics'] },
+      1: { name: 'product.landing.name', desc: 'product.landing.desc', features: ['feature.conversion', 'feature.speed', 'feature.email', 'feature.forms'] },
       2: { name: 'product.portfolio.name', desc: 'product.portfolio.desc', features: ['feature.gallery', 'feature.minimalist', 'feature.animations', 'feature.contact', 'feature.social'] }
     }
     
@@ -24,9 +24,43 @@ export const getTranslatedProducts = (language) => {
   
   const translatedServices = services.map((service, index) => {
     const keys = {
-      0: { name: 'service.recruitment.name', desc: 'service.recruitment.desc', features: ['feature.search', 'feature.evaluation', 'feature.interviews', 'feature.references'] },
-      1: { name: 'service.evaluation.name', desc: 'service.evaluation.desc', features: ['feature.competencies', 'feature.development', 'feature.reports', 'feature.followup'] },
-      2: { name: 'service.psychological.name', desc: 'service.psychological.desc', features: ['feature.orientation', 'feature.strengths', 'feature.psychoprofile', 'feature.growth'] }
+      // Recruitment Service
+      0: { 
+        name: 'service.recruitment.name', 
+        desc: 'service.recruitment.desc', 
+        features: [
+          'feature.profile', 
+          'feature.jobposting', 
+          'feature.prescreening',
+          'feature.competency',
+          'feature.motivation',
+          'feature.presentation',
+          'feature.shortlist',
+          'feature.summary'
+        ] 
+      },
+      // Performance Evaluation Service
+      1: { 
+        name: 'service.evaluation.name', 
+        desc: 'service.evaluation.desc', 
+        features: [
+          'feature.competencies', 
+          'feature.development', 
+          'feature.reports', 
+          'feature.followup'
+        ] 
+      },
+      // Psychological Services
+      2: { 
+        name: 'service.psychological.name', 
+        desc: 'service.psychological.desc', 
+        features: [
+          'feature.orientation', 
+          'feature.strengths', 
+          'feature.psychoprofile', 
+          'feature.growth'
+        ] 
+      }
     }
     
     const key = keys[index]

@@ -11,10 +11,16 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p className="about-description">
-              {t('about.description1')} <strong>{t('about.developer')}</strong> {t('about.and')} <strong>{t('about.hr')}</strong> {t('about.description2')}
+              {t('about.description1')}
             </p>
             <p className="about-description">
-              {t('about.description3')}
+              {t('about.description2')} <strong>{t('about.developer')}</strong> {t('about.with')} <strong>{t('about.psychologist')}</strong> {t('about.with2')} <strong>{t('about.hr')}</strong>{t('about.description3')}
+            </p>
+            <p className="about-description">
+              {t('about.description4')}
+            </p>
+            <p className="about-description">
+              {t('about.description5')}
             </p>
           </div>
           <div className="about-values">
