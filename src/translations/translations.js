@@ -26,11 +26,11 @@ export const translations = {
     
     // Services
     'service.recruitment.name': 'Reclutamiento y Selección',
-    'service.recruitment.desc': 'Servicio completo de búsqueda, selección y contratación de talento para tu empresa.',
-    'service.evaluation.name': 'Evaluación de Desempeño',
-    'service.evaluation.desc': 'Sistema integral de evaluación del desempeño de tus empleados con métricas y planes de mejora.',
-    'service.psychological.name': 'Asesorías psicolaborales personalizadas',
-    'service.psychological.desc': 'Te ayudamos a encontrar claridad, confianza y dirección en tu camino laboral. Creamos un plan personalizado de orientación y crecimiento profesional para que puedas mejorar tu situación laboral, potenciar tu perfil y abrir nuevas oportunidades acorde a lo que realmente buscás.',
+    'service.recruitment.desc': 'Proceso integral de reclutamiento, selección y contratación de talento para tu empresa',
+    'service.evaluation.name': 'Redacción del aviso laboral, publicación y difusión de la búsqueda',
+    'service.evaluation.desc': 'Preselección de candidatos acorde al perfil solicitado.',
+    'service.psychological.name': 'Evaluación de competencias alineadas al perfil buscado y análisis de motivaciones y expectativas profesionales.',
+    'service.psychological.desc': 'Presentación de candidatos finalistas. - entrega de Shortlist de 2 a 3 candidatos e Informe resumido por candidato con observaciones y recomendación.',
     
     // Product Card
     'product.addToCart': 'Añadir al carrito',
