@@ -234,18 +234,21 @@ export const translations = {
     
     // About
     'about.title': 'About Us',
-    'about.description1': 'We are a team that combines **digital creativity** and **human talent management**.',
+    'about.description1': 'We are a team that combines digital creativity and human talent management.',
     'about.description2': 'We integrate the perspective of a',
-    'about.developer': '**Web Developer**',
-    'about.and': 'and a',
-    'about.hr': '**Graduate Organisational Psychology**',
-    'about.description2': 'with extensive experience in talent management and organizational development.',
-    'about.description3': 'We work together to offer you comprehensive services ranging from creating your digital presence to optimizing your company\'s human resources. Our goal is to help you grow both in the digital world and in managing your team.',
-    'about.value1.title': '**Commitment**',
+    'about.developer': 'Web Developer',
+    'about.with': 'with the experience of an',
+    'about.psychologist': 'Organizational Psychologist',
+    'about.with2': 'with training in',
+    'about.hr': 'Human Resources',
+    'about.description3': ', with experience in personnel selection, talent management, and professional and organizational development.',
+    'about.description4': 'We work together to offer comprehensive solutions, supporting companies and ventures in both building their digital presence and optimizing their work teams.',
+    'about.description5': 'Our purpose is to support you in the growth of your project, helping you strengthen your brand in the digital environment and empower the people who make it possible.',
+    'about.value1.title': 'Commitment',
     'about.value1.desc': 'We are committed to excellence in every project',
-    'about.value2.title': '**Innovation**',
+    'about.value2.title': 'Innovation',
     'about.value2.desc': 'We use the latest technologies and best practices',
-    'about.value3.title': '**Results**',
+    'about.value3.title': 'Results',
     'about.value3.desc': 'Focused on generating real value for your business',
     
     // Footer
@@ -383,21 +386,31 @@ export const translations = {
     'validation.phoneInvalid': 'O telefone não é válido',
     
     // About
-    'about.title': 'Quem Somos',
-    'about.description1': 'Somos uma equipe que combina **criatividade digital** e **gestão de talentos humanos**.',
-    'about.description2': 'Integramos o olhar de um',
-    'about.developer': '**Desenvolvedor Web**',
-    'about.and': 'e uma',
-    'about.psychologist': '**Licenciada em Psicologia Organizacional**',
-    'about.description2': 'com ampla experiência em gestão de talentos e desenvolvimento organizacional.',
-    'about.description3': 'Trabalhamos em conjunto para oferecer soluções integradas, acompanhando empresas e empreendimentos tanto na construção de sua presença digital quanto na otimização de suas equipes de trabalho.',
-    'about.description4': 'Nosso objetivo é ajudá-lo a crescer tanto no mundo digital quanto na gestão da sua equipe.',
-    'about.value1.title': '**Compromisso**',
-    'about.value1.desc': 'Comprometidos com a excelência em cada projeto',
-    'about.value2.title': '**Inovação**',
-    'about.value2.desc': 'Utilizamos as tecnologias mais recentes e as melhores práticas',
-    'about.value3.title': '**Resultados**',
-    'about.value3.desc': 'Focados em gerar valor real para o seu negócio',
+  'about.title': 'Quem Somos',
+  'about.description1':
+    'Somos uma equipa que combina criatividade digital e gestão de talentos humanos.',
+  'about.description2': 'Integramos a visão de um',
+  'about.developer': 'Programador web',
+  'about.with': 'com a experiência de uma',
+  'about.psychologist': 'Psicóloga',
+  'about.with2': 'com formação em',
+  'about.hr': 'Recursos Humanos',
+  'about.description3':
+    ', com experiência em seleção de pessoal, gestão de talentos e desenvolvimento profissional e organizacional.',
+  'about.description4':
+    'Trabalhamos em conjunto para oferecer soluções integrais, acompanhando empresas e empreendimentos tanto na construção da sua presença digital como na otimização das suas equipas de trabalho.',
+  'about.description5':
+    'O nosso objetivo é acompanhá-lo no crescimento do seu projeto, ajudando-o a fortalecer a sua marca no ambiente digital e a capacitar as pessoas que o tornam possível.',
+
+  // Values (3 cuadraditos)
+  'about.value1.title': 'Compromisso',
+  'about.value1.desc': 'Comprometimento com a excelência em cada projeto',
+  'about.value2.title': 'Inovação',
+  'about.value2.desc':
+    'Utilizamos as tecnologias mais modernas e as melhores práticas',
+  'about.value3.title': 'Resultados',
+  'about.value3.desc': 'Focados em gerar valor real para o seu negócio',
+
     
     // Footer
     'footer.description': 'Onde a tecnologia e as pessoas se potencializam.',
@@ -412,6 +425,9 @@ export const translations = {
     'contact.namePlaceholder': 'Seu nome',
     'contact.email': 'Email *',
     'contact.emailPlaceholder': 'seu@email.com',
+    
+    // About Section
+    
     'contact.subject': 'Assunto *',
     'contact.subjectPlaceholder': 'Sobre o que você gostaria de consultar?',
     'contact.message': 'Mensagem *',
