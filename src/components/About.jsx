@@ -10,32 +10,34 @@ const About = () => {
         <h2 className="about-title">{t('about.title')}</h2>
 
         <div className="about-content">
-          {/* Text Section */}
+          {/* TEXT SECTION */}
           <div className="about-text">
+            {/* Description 1 */}
             <p className="about-description">
               {t('about.description1')}
             </p>
 
+            {/* Description 2 with Bold */}
             <p className="about-description">
-              {t('about.description2')}{" "}
-              <strong>{t('about.developer')}</strong>{" "}
-              {t('about.with')}{" "}
-              <strong>{t('about.psychologist')}</strong>{" "}
-              {t('about.with2')}{" "}
-              <strong>{t('about.hr')}</strong>
-              {t('about.description3')}
+              {t('about.description2.part1')}{' '}
+              <strong>{t('about.description2.dev')}</strong>{' '}
+              {t('about.description2.part2')}{' '}
+              <strong>{t('about.description2.psy')}</strong>{' '}
+              {t('about.description2.part3')}
             </p>
 
+            {/* Description 3 */}
             <p className="about-description">
               {t('about.description4')}
             </p>
 
+            {/* Description 4 */}
             <p className="about-description">
               {t('about.description5')}
             </p>
           </div>
 
-          {/* Values Section */}
+          {/* VALUES SECTION */}
           <div className="about-values">
             <div className="value-card">
               <h3>{t('about.value1.title')}</h3>

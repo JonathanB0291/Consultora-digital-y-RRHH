@@ -72,24 +72,35 @@ export const translations = {
     'validation.phoneRequired': 'El teléfono es requerido',
     'validation.phoneInvalid': 'El teléfono no es válido',
     
-    // About
-    'about.title': 'Quiénes Somos',
-    'about.description1': 'Somos un equipo que combina creatividad digital y gestión de talento humano.',
-    'about.description2': 'Integramos la mirada de un',
-    'about.developer': 'Desarrollador Web',
-    'about.with': 'con la experiencia de una',
-    'about.psychologist': 'Psicóloga',
-    'about.with2': 'con formación en',
-    'about.hr': 'Recursos Humanos',
-    'about.description3': ', con trayectoria en selección de personal, gestión del talento y desarrollo profesional y organizacional.',
-    'about.description4': 'Trabajamos de manera conjunta para ofrecer soluciones integrales, acompañando a empresas y emprendimientos tanto en la construcción de su presencia digital como en la optimización de sus equipos de trabajo.',
-    'about.description5': 'Nuestro propósito es acompañarte en el crecimiento de tu proyecto, ayudándote a fortalecer tu marca en el entorno digital y a potenciar a las personas que lo hacen posible.',
-    'about.value1.title': 'Compromiso',
-    'about.value1.desc': 'Nos comprometemos con la excelencia en cada proyecto',
-    'about.value2.title': 'Innovación',
-    'about.value2.desc': 'Utilizamos las últimas tecnologías y mejores prácticas',
-    'about.value3.title': 'Resultados',
-    'about.value3.desc': 'Enfocados en generar valor real para tu negocio',
+// About
+'about.title': 'Quiénes Somos',
+
+'about.description1':
+  'Somos un equipo que combina creatividad digital y gestión de talento humano.',
+
+'about.description2.part1': 'Integramos la mirada de un',
+'about.description2.dev': 'Desarrollador Web',
+'about.description2.part2': 'con la experiencia de',
+'about.description2.psy': '2 Psicólogas Organizacionales',
+'about.description2.part3':
+  'con trayectorias en selección de personal, gestión del talento y desarrollo profesional y organizacional.',
+
+'about.description4':
+  'Trabajamos de manera conjunta para ofrecer soluciones integrales, acompañando a empresas y emprendimientos tanto en la construcción de su presencia digital como en la optimización de sus equipos de trabajo.',
+
+'about.description5':
+  'Nuestro propósito es acompañarte en el crecimiento de tu proyecto, ayudándote a fortalecer tu marca en el entorno digital y a potenciar a las personas que lo hacen posible.',
+
+// Values
+'about.value1.title': 'Compromiso',
+'about.value1.desc': 'Nos comprometemos con la excelencia en cada proyecto',
+
+'about.value2.title': 'Innovación',
+'about.value2.desc': 'Utilizamos las últimas tecnologías y mejores prácticas',
+
+'about.value3.title': 'Resultados',
+'about.value3.desc': 'Enfocados en generar valor real para tu negocio',
+
     
     // Footer
     'footer.description': 'Donde la tecnología y las personas se potencian',
@@ -117,47 +128,46 @@ export const translations = {
     'whatsapp.tooltip': '¿Necesitas ayuda?',
     'whatsapp.message': 'Hola! Me interesa conocer más sobre sus servicios.',
     
-    // Features
-    // Web Development Features
-    'feature.responsive': 'Diseño responsive',
-    'feature.seo': 'Optimización SEO',
-    'feature.admin': 'Panel de administración',
-    'feature.contact': 'Formulario de contacto',
-    'feature.social': 'Integración con redes sociales',
-    'feature.conversion': 'Diseño conversional',
-    'feature.speed': 'Optimización de velocidad',
-    'feature.email': 'Integración con email marketing',
-    'feature.forms': 'Formularios optimizados',
-    'feature.gallery': 'Galería de proyectos',
-    'feature.minimalist': 'Diseño minimalista',
-    'feature.animations': 'Animaciones suaves',
-    
-    // Recruitment Features
-    'feature.search': 'Búsqueda de candidatos',
-    'feature.evaluation': 'Evaluación de competencias',
-    'feature.interviews': 'Entrevistas estructuradas',
-    'feature.references': 'Verificación de referencias',
-    'feature.profile': 'Relevamiento y definición del perfil',
-    'feature.jobposting': 'Redacción del aviso laboral, publicación y difusión de la búsqueda',
-    'feature.prescreening': 'Preselección de candidatos acorde al perfil solicitado',
-    'feature.competency': 'Evaluación de competencias alineadas al perfil buscado',
-    'feature.motivation': 'Análisis de motivaciones y expectativas profesionales',
-    'feature.presentation': 'Presentación de candidatos finalistas',
-    'feature.shortlist': 'Entrega de Shortlist de 2 a 3 candidatos',
-    'feature.summary': 'Informe resumido por candidato con observaciones y recomendación',
-    
-    // Performance Evaluation Features
-    'feature.competencies': 'Análisis de competencias',
-    'feature.development': 'Plan de desarrollo individual',
-    'feature.reports': 'Informes detallados',
-    'feature.followup': 'Seguimiento continuo',
-    
-    // Psychological Services Features
-    'feature.orientation': 'Orientación profesional',
-    'feature.strengths': 'Identificación de fortalezas y competencias',
-    'feature.psychoprofile': 'Informe psicoprofesional',
-    'feature.growth': 'Plan de crecimiento laboral',
-  },
+  // Features
+// Web Development Features
+'feature.responsive': 'Diseño responsive',
+'feature.seo': 'Optimización SEO',
+'feature.admin': 'Panel de administración',
+'feature.contact': 'Formulario de contacto',
+'feature.social': 'Integración con redes sociales',
+'feature.conversion': 'Diseño conversional',
+'feature.speed': 'Optimización de velocidad',
+'feature.email': 'Integración con email marketing',
+'feature.forms': 'Formularios optimizados',
+'feature.gallery': 'Galería de proyectos',
+'feature.minimalist': 'Diseño minimalista',
+'feature.animations': 'Animaciones suaves',
+
+// Recruitment Features
+'feature.search': 'Búsqueda de candidatos',
+'feature.evaluation': 'Evaluación de competencias',
+'feature.interviews': 'Entrevistas estructuradas',
+'feature.references': 'Verificación de referencias',
+'feature.profile': 'Relevamiento y definición del perfil',
+'feature.jobposting': 'Redacción del aviso laboral, publicación y difusión de la búsqueda',
+'feature.prescreening': 'Preselección de candidatos acorde al perfil solicitado',
+'feature.competency': 'Evaluación de competencias de candidatos',
+'feature.presentation': 'Presentación e informes de candidatos finalistas',
+
+// Performance Evaluation Features
+'feature.competencies': 'Análisis de competencias',
+'feature.development': 'Plan de desarrollo individual',
+'feature.reports': 'Informes detallados',
+'feature.followup': 'Seguimiento continuo',
+
+// Psychological Services Features
+'feature.orientation': 'Orientación profesional',
+'feature.strengths': 'Identificación de fortalezas y competencias',
+'feature.psychoprofile': 'Informe psicoprofesional',
+'feature.growth': 'Plan de crecimiento laboral',
+},
+
+
   
   en: {
     // Header
@@ -233,23 +243,26 @@ export const translations = {
     'validation.phoneInvalid': 'Phone is not valid',
     
     // About
-    'about.title': 'About Us',
-    'about.description1': 'We are a team that combines digital creativity and human talent management.',
-    'about.description2': 'We integrate the perspective of a',
-    'about.developer': 'Web Developer',
-    'about.with': 'with the experience of an',
-    'about.psychologist': 'Organizational Psychologist',
-    'about.with2': 'with training in',
-    'about.hr': 'Human Resources',
-    'about.description3': ', with experience in personnel selection, talent management, and professional and organizational development.',
-    'about.description4': 'We work together to offer comprehensive solutions, supporting companies and ventures in both building their digital presence and optimizing their work teams.',
-    'about.description5': 'Our purpose is to support you in the growth of your project, helping you strengthen your brand in the digital environment and empower the people who make it possible.',
-    'about.value1.title': 'Commitment',
-    'about.value1.desc': 'We are committed to excellence in every project',
-    'about.value2.title': 'Innovation',
-    'about.value2.desc': 'We use the latest technologies and best practices',
-    'about.value3.title': 'Results',
-    'about.value3.desc': 'Focused on generating real value for your business',
+'about.title': 'About Us',
+'about.description1':
+  'We are a team that combines digital creativity and human talent management.',
+'about.description2.part1': 'We integrate the perspective of a',
+'about.description2.dev': 'Web Developer',
+'about.description2.part2': 'with the experience of',
+'about.description2.psy': '2 Organizational Psychologists',
+'about.description2.part3': 'with backgrounds in recruitment, talent management, and professional and organizational development.',
+'about.description4':
+  'Our purpose is to support you in the growth of your project, helping you strengthen your brand in the digital environment and empower the people who make it possible.',
+'about.description5':
+  'Our purpose is to support you in the growth of your project, helping you strengthen your brand in the digital environment and empower the people who make it possible.',
+// Values
+'about.value1.title': 'Commitment',
+'about.value1.desc': 'We are committed to excellence in every project',
+'about.value2.title': 'Innovation',
+'about.value2.desc': 'We use the latest technologies and best practices',
+'about.value3.title': 'Results',
+'about.value3.desc': 'Focused on generating real value for your business',
+
     
     // Footer
     'footer.description': 'Where technology and people empower each other.',
@@ -277,41 +290,46 @@ export const translations = {
     'whatsapp.tooltip': 'Need help?',
     'whatsapp.message': 'Hello! I\'m interested in learning more about your services.',
     
-    // Features
-    'feature.responsive': 'Responsive design',
-    'feature.seo': 'SEO optimization',
-    'feature.admin': 'Admin panel',
-    'feature.contact': 'Contact form',
-    'feature.social': 'Social media integration',
-    'feature.conversion': 'Conversion design',
-    'feature.speed': 'Speed optimization',
-    'feature.email': 'Email marketing integration',
-    'feature.forms': 'Optimized forms',
-    'feature.gallery': 'Project gallery',
-    'feature.minimalist': 'Minimalist design',
-    'feature.animations': 'Smooth animations',
-    'feature.search': 'Active candidate search',
-    'feature.evaluation': 'Competency evaluation',
-    'feature.interviews': 'Structured interviews',
-    'feature.references': 'Reference verification',
-    'feature.profile': 'Profile research and definition',
-    'feature.jobposting': 'Job posting writing, publishing and dissemination',
-    'feature.prescreening': 'Pre-selection of candidates according to the required profile',
-    'feature.competency': 'Evaluation of competencies aligned with the desired profile',
-    'feature.motivation': 'Analysis of motivations and professional expectations',
-    'feature.presentation': 'Presentation of final candidates',
-    'feature.shortlist': 'Shortlist of 2-3 candidates',
-    'feature.summary': 'Summary report per candidate with observations and recommendations',
-    'feature.competencies': 'Competency analysis',
-    'feature.development': 'Individual development plan',
-    'feature.reports': 'Detailed reports',
-    'feature.followup': 'Continuous follow-up',
-    'feature.orientation': 'Professional guidance',
-    'feature.strengths': 'Identification of strengths and competencies',
-    'feature.psychoprofile': 'Psychoprofessional report',
-    'feature.growth': 'Career growth plan',
-  },
-  
+   // Features
+// Web Development Features
+'feature.responsive': 'Responsive design',
+'feature.seo': 'SEO optimization',
+'feature.admin': 'Admin panel',
+'feature.contact': 'Contact form',
+'feature.social': 'Social media integration',
+'feature.conversion': 'Conversion-focused design',
+'feature.speed': 'Speed optimization',
+'feature.email': 'Email marketing integration',
+'feature.forms': 'Optimized forms',
+'feature.gallery': 'Project gallery',
+'feature.minimalist': 'Minimalist design',
+'feature.animations': 'Smooth animations',
+
+// Recruitment Features
+'feature.search': 'Candidate search',
+'feature.evaluation': 'Competency assessment',
+'feature.interviews': 'Structured interviews',
+'feature.references': 'Reference verification',
+'feature.profile': 'Profile research and definition',
+'feature.jobposting': 'Job posting writing, publication and dissemination',
+'feature.prescreening': 'Pre-selection of candidates according to the required profile',
+'feature.competency': 'Competency evaluation',
+'feature.presentation': 'Presentation and reports of final candidates',
+
+// Performance Evaluation Features
+'feature.competencies': 'Competency analysis',
+'feature.development': 'Individual development plan',
+'feature.reports': 'Detailed reports',
+'feature.followup': 'Continuous follow-up',
+
+// Psychological Services Features
+'feature.orientation': 'Career guidance',
+'feature.strengths': 'Identification of strengths and competencies',
+'feature.psychoprofile': 'Psychoprofessional report',
+'feature.growth': 'Career growth plan',
+},
+
+
   pt: {
     // Header
     'page.title': 'HumanTech | Desenvolvimento Web e Recursos Humanos',
@@ -385,31 +403,36 @@ export const translations = {
     'validation.phoneRequired': 'O telefone é obrigatório',
     'validation.phoneInvalid': 'O telefone não é válido',
     
-    // About
-  'about.title': 'Quem Somos',
-  'about.description1':
-    'Somos uma equipa que combina criatividade digital e gestão de talentos humanos.',
-  'about.description2': 'Integramos a visão de um',
-  'about.developer': 'Programador web',
-  'about.with': 'com a experiência de uma',
-  'about.psychologist': 'Psicóloga',
-  'about.with2': 'com formação em',
-  'about.hr': 'Recursos Humanos',
-  'about.description3':
-    ', com experiência em seleção de pessoal, gestão de talentos e desenvolvimento profissional e organizacional.',
-  'about.description4':
-    'Trabalhamos em conjunto para oferecer soluções integrais, acompanhando empresas e empreendimentos tanto na construção da sua presença digital como na otimização das suas equipas de trabalho.',
-  'about.description5':
-    'O nosso objetivo é acompanhá-lo no crescimento do seu projeto, ajudando-o a fortalecer a sua marca no ambiente digital e a capacitar as pessoas que o tornam possível.',
+   
+// About
+'about.title': 'Quem Somos',
 
-  // Values (3 cuadraditos)
-  'about.value1.title': 'Compromisso',
-  'about.value1.desc': 'Comprometimento com a excelência em cada projeto',
-  'about.value2.title': 'Inovação',
-  'about.value2.desc':
-    'Utilizamos as tecnologias mais modernas e as melhores práticas',
-  'about.value3.title': 'Resultados',
-  'about.value3.desc': 'Focados em gerar valor real para o seu negócio',
+'about.description1':
+  'Somos uma equipa que combina criatividade digital e gestão de talentos humanos.',
+
+'about.description2.part1': 'Integramos a visão de um',
+'about.description2.dev': 'Programador Web',
+'about.description2.part2': 'com a experiência de',
+'about.description2.psy': 'duas Psicólogas Organizacionais',
+'about.description2.part3':
+  'com trajetória em recrutamento, gestão de talentos e desenvolvimento profissional e organizacional.',
+
+'about.description4':
+  'Trabalhamos em conjunto para oferecer soluções completas, acompanhando empresas e empreendimentos tanto na construção da sua presença digital como na otimização das suas equipas de trabalho.',
+
+'about.description5':
+  'O nosso propósito é acompanhá-lo no crescimento do seu projeto, ajudando-o a fortalecer a sua marca no ambiente digital e a potenciar as pessoas que o tornam possível.',
+
+// Values
+'about.value1.title': 'Compromisso',
+'about.value1.desc': 'Comprometimento com a excelência em cada projeto',
+
+'about.value2.title': 'Inovação',
+'about.value2.desc': 'Utilizamos as tecnologias mais modernas e as melhores práticas',
+
+'about.value3.title': 'Resultados',
+'about.value3.desc': 'Focados em gerar valor real para o seu negócio',
+
 
     
     // Footer
@@ -441,39 +464,42 @@ export const translations = {
     'whatsapp.tooltip': 'Precisa de ajuda?',
     'whatsapp.message': 'Olá! Tenho interesse em saber mais sobre seus serviços.',
     
-    // Features
-    'feature.responsive': 'Design responsivo',
-    'feature.seo': 'Otimização SEO',
-    'feature.admin': 'Painel de administração',
-    'feature.contact': 'Formulário de contato',
-    'feature.social': 'Integração com redes sociais',
-    'feature.conversion': 'Design conversional',
-    'feature.speed': 'Otimização de velocidade',
-    'feature.email': 'Integração com email marketing',
-    'feature.forms': 'Formulários otimizados',
-    'feature.gallery': 'Galeria de projetos',
-    'feature.minimalist': 'Design minimalista',
-    'feature.animations': 'Animações suaves',
-    'feature.search': 'Busca ativa de candidatos',
-    'feature.evaluation': 'Avaliação de competências',
-    'feature.interviews': 'Entrevistas estruturadas',
-    'feature.references': 'Verificação de referências',
-    'feature.profile': 'Levantamento e definição de perfil',
-    'feature.jobposting': 'Redação do anúncio de emprego, publicação e divulgação da vaga',
-    'feature.prescreening': 'Pré-seleção de candidatos de acordo com o perfil solicitado',
-    'feature.competency': 'Avaliação de competências alinhadas ao perfil desejado',
-    'feature.motivation': 'Análise de motivações e expectativas profissionais',
-    'feature.presentation': 'Apresentação dos candidatos finalistas',
-    'feature.shortlist': 'Lista final de 2 a 3 candidatos',
-    'feature.summary': 'Relatório resumido por candidato com observações e recomendações',
-    'feature.competencies': 'Análise de competências',
-    'feature.development': 'Plano de desenvolvimento individual',
-    'feature.reports': 'Relatórios detalhados',
-    'feature.followup': 'Acompanhamento contínuo',
-    'feature.orientation': 'Orientação profissional',
-    'feature.strengths': 'Identificação de fortalezas e competências',
-    'feature.psychoprofile': 'Relatório psicoprofissional',
-    'feature.growth': 'Plano de crescimento profissional',
-  }
-}
+  // Features
+// Web Development Features
+'feature.responsive': 'Design responsivo',
+'feature.seo': 'Otimização SEO',
+'feature.admin': 'Painel de administração',
+'feature.contact': 'Formulário de contato',
+'feature.social': 'Integração com redes sociais',
+'feature.conversion': 'Design focado em conversão',
+'feature.speed': 'Otimização de velocidade',
+'feature.email': 'Integração com email marketing',
+'feature.forms': 'Formulários otimizados',
+'feature.gallery': 'Galeria de projetos',
+'feature.minimalist': 'Design minimalista',
+'feature.animations': 'Animações suaves',
 
+// Recruitment Features
+'feature.search': 'Busca de candidatos',
+'feature.evaluation': 'Avaliação de competências',
+'feature.interviews': 'Entrevistas estruturadas',
+'feature.references': 'Verificação de referências',
+'feature.profile': 'Levantamento e definição do perfil',
+'feature.jobposting': 'Redação do anúncio da vaga, publicação e divulgação da busca',
+'feature.prescreening': 'Pré-seleção de candidatos de acordo com o perfil solicitado',
+'feature.competency': 'Avaliação de competências',
+'feature.presentation': 'Apresentação e relatórios dos candidatos finalistas',
+
+// Performance Evaluation Features
+'feature.competencies': 'Análise de competências',
+'feature.development': 'Plano de desenvolvimento individual',
+'feature.reports': 'Relatórios detalhados',
+'feature.followup': 'Acompanhamento contínuo',
+
+// Psychological Services Features
+'feature.orientation': 'Orientação profissional',
+'feature.strengths': 'Identificação de fortalezas e competências',
+'feature.psychoprofile': 'Relatório psicoprofissional',
+'feature.growth': 'Plano de crescimento profissional',
+  },
+}
