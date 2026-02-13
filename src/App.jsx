@@ -19,6 +19,8 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <About />
+
       <main className="main-content">
         <div className="container">
           <section className="section" id="web">
@@ -32,8 +34,6 @@ function App() {
           </section>
         </div>
       </main>
-
-      <About />
 
       <ContactForm />
 

@@ -25,14 +25,14 @@ const Header = () => {
 
         {/* MENÚ */}
         <nav className="nav-menu">
+          <button onClick={() => scrollToSection('about')} className="nav-link">
+            {t('header.nav.about')}
+          </button>
           <button onClick={() => scrollToSection('web')} className="nav-link">
             {t('header.nav.web')}
           </button>
           <button onClick={() => scrollToSection('rrhh')} className="nav-link">
             {t('header.nav.rrhh')}
-          </button>
-          <button onClick={() => scrollToSection('about')} className="nav-link">
-            {t('header.nav.about')}
           </button>
           <button onClick={() => scrollToSection('contact')} className="nav-link">
             {t('header.nav.contact') || 'Contacto'}

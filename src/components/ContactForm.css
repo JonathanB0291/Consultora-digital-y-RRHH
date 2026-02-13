@@ -34,8 +34,8 @@
 }
 
 .contact-title {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 1rem;
   text-align: center;
@@ -166,7 +166,7 @@
   }
 
   .contact-title {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .contact-subtitle {
